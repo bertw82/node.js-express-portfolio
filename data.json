@@ -1,0 +1,89 @@
+{
+    "projects": [
+        {
+            "id": "0",
+            "project_name": "Tip Calculator",
+            "description": "A calculator for calculating tips when eating at a restaurant.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://bertw82.github.io/tip-calculator/",
+            "github_link": "https://github.com/bertw82/tip-calculator",
+            "image_urls": [
+                "../images/tip-calculator-550.jpg",
+                "../images/tip-calculator-1200-1.jpg",
+                "../images/tip-calculator-1200-2.jpg"
+            ]
+        },
+        {
+            "id": "1",
+            "project_name": "Simpsons Quiz",
+            "description": "A quiz to test your knowledge of the popular tv show \"The Simpsons\".",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://bertw82.github.io/simpsons-quiz/",
+            "github_link": "https://github.com/bertw82/simpsons-quiz",
+            "image_urls": [
+                "../images/simpsons-550.jpg",
+                "../images/simpsons-1200-1.jpg",
+                "../images/simpsons-1200-2.jpg"
+            ]
+        },
+        {
+            "id": "2",
+            "project_name": "FAQ Accordion Card",
+            "description": "An interactive card for Frequently Asked Questions.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://bertw82.github.io/faq-accordion-card/",
+            "github_link": "https://github.com/bertw82/faq-accordion-card",
+            "image_urls": [
+                "../images/faq-550.jpg",
+                "../images/faq-1200-1.jpg",
+                "../images/faq-1200-2.jpg"
+            ]
+        },
+        {
+            "id": "3",
+            "project_name": "Space API",
+            "description": "An API application to see who is currently in space!",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://bertw82.github.io/space-api/",
+            "github_link": "https://github.com/bertw82/space-api",
+            "image_urls": [
+                "../images/space-550.jpg",
+                "../images/space-1200-1.jpg",
+                "../images/space-1200-2.jpg"
+            ]
+        },
+        {
+            "id": "4",
+            "project_name": "Random Meal Planner",
+            "description": "An app to randomly plan meals and provide recipes for the week.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://bertw82.github.io/randomized-meal-planner/",
+            "github_link": "https://github.com/bertw82/randomized-meal-planner",
+            "image_urls": [
+                "../images/meal-550.jpg",
+                "../images/meal-1200-1.jpg",
+                "../images/meal-1200-2.jpg"
+            ]
+        }
+    ]
+}
