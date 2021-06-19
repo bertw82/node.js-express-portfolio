@@ -12,9 +12,9 @@
             "live_link": "https://bertw82.github.io/tip-calculator/",
             "github_link": "https://github.com/bertw82/tip-calculator",
             "image_urls": [
-                "../images/tip-calculator-550.jpg",
-                "../images/tip-calculator-1200-1.jpg",
-                "../images/tip-calculator-1200-2.jpg"
+                "../static/images/tip-calculator-550.jpg",
+                "../static/images/tip-calculator-1200-1.jpg",
+                "../static/images/tip-calculator-1200-2.jpg"
             ]
         },
         {
@@ -29,9 +29,9 @@
             "live_link": "https://bertw82.github.io/simpsons-quiz/",
             "github_link": "https://github.com/bertw82/simpsons-quiz",
             "image_urls": [
-                "../images/simpsons-550.jpg",
-                "../images/simpsons-1200-1.jpg",
-                "../images/simpsons-1200-2.jpg"
+                "../static/images/simpsons-550.jpg",
+                "../static/images/simpsons-1200-1.jpg",
+                "../static/images/simpsons-1200-2.jpg"
             ]
         },
         {
@@ -41,31 +41,33 @@
             "technologies": [
                 "HTML",
                 "CSS",
+                "SVG",
                 "JavaScript"
             ],
             "live_link": "https://bertw82.github.io/faq-accordion-card/",
             "github_link": "https://github.com/bertw82/faq-accordion-card",
             "image_urls": [
-                "../images/faq-550.jpg",
-                "../images/faq-1200-1.jpg",
-                "../images/faq-1200-2.jpg"
+                "../static/images/faq-550.jpg",
+                "../static/images/faq-1200-1.jpg",
+                "../static/images/faq-1200-2.jpg"
             ]
         },
         {
             "id": "3",
-            "project_name": "Space API",
-            "description": "An API application to see who is currently in space!",
+            "project_name": "Restaurant Review App",
+            "description": "An app for leaving reviews for restuarants",
             "technologies": [
                 "HTML",
                 "CSS",
-                "JavaScript"
+                "jQuery"
             ],
-            "live_link": "https://bertw82.github.io/space-api/",
-            "github_link": "https://github.com/bertw82/space-api",
+            "live_link": "https://bertw82.github.io/restaurant-review-app/",
+            "github_link": "https://github.com/bertw82/restaurant-review-app",
             "image_urls": [
-                "../images/space-550.jpg",
-                "../images/space-1200-1.jpg",
-                "../images/space-1200-2.jpg"
+                "../static/images/review-550.jpg",
+                "../static/images/review-1200-1.jpg",
+                "../static/images/review-1200-2.jpg",
+                "../static/images/review-1200-3.jpg"
             ]
         },
         {
@@ -80,9 +82,9 @@
             "live_link": "https://bertw82.github.io/randomized-meal-planner/",
             "github_link": "https://github.com/bertw82/randomized-meal-planner",
             "image_urls": [
-                "../images/meal-550.jpg",
-                "../images/meal-1200-1.jpg",
-                "../images/meal-1200-2.jpg"
+                "../static/images/meal-550.jpg",
+                "../static/images/meal-1200-1.jpg",
+                "../static/images/meal-1200-2.jpg"
             ]
         }
     ]

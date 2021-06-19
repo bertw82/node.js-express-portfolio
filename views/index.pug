@@ -5,14 +5,19 @@ block content
   article.portfolio-intro
 
     //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
-    h1 Heading
+    h1 Portfolio of Side Projects
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
+    p This is a portfolio of projects I have completed in order to challenge myself and grow in my knowledge of web development. Over the past year I have been learning to become a web developer through Treehouse's Front End Web Development Techdegree and now its Full Stack JavaScript Techdegree. When I'm not working on the coursework and projects for those programs I like to work on side projects. 
 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
+      each project in projects
+        .cell
+          a(href=`${project.live_link}`, target="_blank")
+            img.thumbnail(src=`${project.image_urls[0]}`, alt=`${project.project_name}`)
+            h5 #{project.project_name}
 
       //- Use the Pug `each` iterator to loop over the projects in your data file  
       
