@@ -3,7 +3,7 @@
         {
             "id": "0",
             "project_name": "Tip Calculator",
-            "description": "A calculator for calculating tips when eating at a restaurant.",
+            "description": "This project is a calculator for calculating tips when eating at a restaurant. Users can add the amount for the bill, the percentage of the bill that they would like use as a tip based on service, and the number of people splitting the total amount.",
             "technologies": [
                 "HTML",
                 "CSS",
@@ -14,13 +14,14 @@
             "image_urls": [
                 "../static/images/tip-calculator-550.jpg",
                 "../static/images/tip-calculator-1200-1.jpg",
-                "../static/images/tip-calculator-1200-2.jpg"
+                "../static/images/tip-calculator-1200-2.jpg",
+                "../static/images/tip-calculator-1200-3.jpg"
             ]
         },
         {
             "id": "1",
             "project_name": "Simpsons Quiz",
-            "description": "A quiz to test your knowledge of the popular tv show \"The Simpsons\".",
+            "description": "This project is a quiz to test your knowledge of the popular tv show \"The Simpsons\". A player is presented with a number of questions about characters on the \"The Simpsons\" and when the answers are submitted a pop-up on the page lets them know how they did. Players can also reset the game and try again.",
             "technologies": [
                 "HTML",
                 "CSS",
@@ -31,13 +32,14 @@
             "image_urls": [
                 "../static/images/simpsons-550.jpg",
                 "../static/images/simpsons-1200-1.jpg",
-                "../static/images/simpsons-1200-2.jpg"
+                "../static/images/simpsons-1200-2.jpg",
+                "../static/images/simpsons-1200-3.jpg"
             ]
         },
         {
             "id": "2",
             "project_name": "FAQ Accordion Card",
-            "description": "An interactive card for Frequently Asked Questions.",
+            "description": "This is an interactive card for Frequently Asked Questions, a common project in web development. I used Bootstrap 5.0 to create the HTML structure, and custom CSS and JS.",
             "technologies": [
                 "HTML",
                 "CSS",
@@ -49,13 +51,14 @@
             "image_urls": [
                 "../static/images/faq-550.jpg",
                 "../static/images/faq-1200-1.jpg",
-                "../static/images/faq-1200-2.jpg"
+                "../static/images/faq-1200-2.jpg",
+                "../static/images/faq-1200-3.jpg"
             ]
         },
         {
             "id": "3",
             "project_name": "Restaurant Review App",
-            "description": "An app for leaving reviews for restuarants",
+            "description": "This is an app for leaving reviews for restaurants with jQuery functionality. This project includes the jQuery plugin \"Fancy Box\", simulating user photos that can be uploaded to the app.",
             "technologies": [
                 "HTML",
                 "CSS",
@@ -73,7 +76,7 @@
         {
             "id": "4",
             "project_name": "Random Meal Planner",
-            "description": "An app to randomly plan meals and provide recipes for the week.",
+            "description": "This is an app to randomly plan meals and provide recipes for the week. The user is given a random meal plan for the week. Recipes can be clicked on and a modal with detailed instructions opens up.",
             "technologies": [
                 "HTML",
                 "CSS",
@@ -84,7 +87,9 @@
             "image_urls": [
                 "../static/images/meal-550.jpg",
                 "../static/images/meal-1200-1.jpg",
-                "../static/images/meal-1200-2.jpg"
+                "../static/images/meal-1200-2.jpg",
+                "../static/images/meal-1200-3.jpg"
+
             ]
         }
     ]
