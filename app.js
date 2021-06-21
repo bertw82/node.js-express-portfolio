@@ -30,7 +30,7 @@ app.get('/projects/:id', (req, res) => {
 //     const err = new Error('oh no!');
 //     err.status = 500;
 //     next(err); 
-//   });
+// });
 
 // 404 errors
 app.use((req, res, next) => {
@@ -41,13 +41,20 @@ app.use((req, res, next) => {
     res.render('page-not-found', { err });
     next();
 });
-
-// global errors
+  
 app.use((err, req, res, next) => {
     res.locals.error = err;
-    res.status(err.status);
-    console.log(`Error ${err.status}: ${err.message}`);
-    res.render('error', { err });
+    console.log(err.status);
+    if (err.status === undefined) {
+        err.status = 404;
+        err.message = 'Page Not Found';
+        console.log(`Error ${err.status}: ${err.message}`);
+        res.render('page-not-found', { err });
+    } else {
+        res.status(err.status || 500);
+        console.log(`Error ${err.status}: ${err.message}`);
+        res.render('error', { err });
+    }
   });
 
 app.listen(3000, () => {
