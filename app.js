@@ -2,6 +2,7 @@ const express = require('express');
 const data = require('./data.json');
 const projects = data.projects;
 const app = express();
+const port = process.env.PORT || 3000;
 
 app.use('/static', express.static('public'));
 app.set('view engine', 'pug');
@@ -57,6 +58,6 @@ app.use((err, req, res, next) => {
     }
   });
 
-app.listen(5000, () => {
+app.listen(3000, () => {
     console.log('The application is running on localhost:3000!')
 });
